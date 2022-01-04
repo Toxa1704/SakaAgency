@@ -47,6 +47,7 @@ body{
     font-size: 14px;
     line-height: 21px;
     flex-direction: row;
+    cursor: pointer;
 }
 .contact-button{
     width: 153px;
@@ -64,10 +65,10 @@ body{
 }
 
 .hero-bg-img{
-    /* background: linear-gradient(106.17deg, rgba(40, 40, 40, 0.56) -25.28%, rgba(38, 38, 38, 0.24) 123.88%); */
     border-radius: 20px;
     margin-top: 50px;
     position: relative;
+    margin: 50px auto;
 }
 .hero-svg{
     opacity: 0.6;
@@ -111,7 +112,6 @@ body{
 }
 .img-icon{
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
 }
 .flexible-text-title, .trainers-text-title, .track-text-title, .new_friends-text-title{
@@ -130,4 +130,16 @@ body{
     font-size: 16px;
     line-height: 30px;
     color: var(--theme-font);
+}
+svg{
+    margin-right: 30px;
+}
+.abus-menu-block{
+    margin-top: 40px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.block{
+    margin: 15px 0;
+    flex: 0 1 50%;
 }
