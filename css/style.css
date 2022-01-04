@@ -122,6 +122,7 @@ body{
     line-height: 42px;
     text-transform: capitalize;
     color: var(--theme-font);
+    text-transform: capitalize;
 }
 .flexible-text-cont, .trainers-text-cont, .track-text-cont, .new_friends-text-cont{
     font-family: Poppins;
@@ -130,6 +131,7 @@ body{
     font-size: 16px;
     line-height: 30px;
     color: var(--theme-font);
+    text-transform: capitalize;
 }
 svg{
     margin-right: 30px;
