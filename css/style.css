@@ -1,6 +1,7 @@
 :root{
     --theme-bg:#12141D;
     --theme-font:#ffffff;
+    --theme-font-button:#A1C5E9;
 }
 
 html,body{
@@ -109,6 +110,7 @@ body{
     font-size: 50px;
     line-height: 70px;
     color: var(--theme-font);
+    padding-top: 100px;
 }
 .img-icon{
     display: flex;
@@ -123,6 +125,7 @@ body{
     text-transform: capitalize;
     color: var(--theme-font);
     text-transform: capitalize;
+    margin: 5px 0;
 }
 .flexible-text-cont, .trainers-text-cont, .track-text-cont, .new_friends-text-cont{
     font-family: Poppins;
@@ -134,7 +137,7 @@ body{
     text-transform: capitalize;
 }
 svg{
-    margin-right: 30px;
+    margin:10px 30px 0 10px;
 }
 .abus-menu-block{
     margin-top: 40px;
@@ -144,4 +147,60 @@ svg{
 .block{
     margin: 15px 0;
     flex: 0 1 50%;
+}
+.servise-title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 83px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--theme-font);
+    margin-top: 100px;
+}
+.content-block-title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: var(--theme-font);
+}
+.content-block-text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--theme-font);
+}
+.services-block-button{
+    background-color: var(--theme-bg);
+    border: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--theme-font-button);
+    display: flex;
+    justify-content:space-between;
+    cursor: pointer;
+}
+.services-content{
+    margin-top: 40px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.services-content-block{
+    background: #1E2028;
+    border-radius: 10px;
+    flex: 0 1 30%;
+    text-align: start;
+    margin: 15px;
+}
+.content-block-button{
+    margin-top: 50px;
 }
