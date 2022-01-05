@@ -167,6 +167,8 @@ svg{
     line-height: 36px;
     text-transform: capitalize;
     color: var(--theme-font);
+    padding: 50px 0 10px 0;
+    margin-left: 20px;
 }
 .content-block-text{
     font-family: Poppins;
@@ -175,9 +177,10 @@ svg{
     font-size: 16px;
     line-height: 28px;
     color: var(--theme-font);
+    margin:0 20px 0 20px;
 }
 .services-block-button{
-    background-color: var(--theme-bg);
+    background-color:#1E2028;
     border: 0;
     font-family: Poppins;
     font-style: normal;
@@ -186,7 +189,7 @@ svg{
     line-height: 20px;
     color: var(--theme-font-button);
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     cursor: pointer;
 }
 .services-content{
@@ -203,4 +206,5 @@ svg{
 }
 .content-block-button{
     margin-top: 50px;
+    padding-bottom: 20px;
 }
