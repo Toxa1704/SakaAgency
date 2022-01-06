@@ -208,3 +208,22 @@ svg{
     margin-top: 50px;
     padding-bottom: 20px;
 }
+.content-heading{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+.content-heading-title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 70px;
+    color: var(--theme-font);
+}
+.content-heading-button button{
+    background: var(--theme-bg);
+    border: 0;
+    cursor: pointer;
+}
