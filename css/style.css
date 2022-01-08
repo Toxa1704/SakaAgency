@@ -326,14 +326,28 @@ svg{
     line-height: 35px;
     color: var(--theme-font);
 }
-
+.right-block-container{
+    width: 570px;
+    height: 500px;
+    background-color:#1E2028;
+    border-radius: 10px;
+}
+.right-block{
+    padding:35px 40px 50px 25px;
+}
+.right-block-img{
+    
+}
+.right-block-profile{
+    display: flex;
+}
 .profile-content-title{
     font-family: Inter;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 22px;
-color: var(--theme-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--theme-font);
 }
 .profile-content-text{
     font-family: Poppins;
@@ -342,12 +356,6 @@ color: var(--theme-font);
     font-size: 14px;
     line-height: 21px;
     color: var(--theme-font);
-}
-.right-block{
-    width: 570px;
-    height: 500px;
-    background-color:#1E2028;
-    border-radius: 10px;
 }
 .right-block-text{
     font-family: Poppins;
