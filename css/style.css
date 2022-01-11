@@ -333,15 +333,22 @@ svg{
     border-radius: 10px;
 }
 .right-block{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     padding:35px 40px 50px 25px;
 }
 .right-block-img{
-    
+    max-width: 80px;
+    max-height: 70px;
+    margin-left:auto;
 }
 .right-block-profile{
     display: flex;
+    align-items: top;
 }
 .profile-content-title{
+    margin: 5px 0;
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
@@ -364,4 +371,16 @@ svg{
     font-size: 16px;
     line-height: 31px;
     color: var(--theme-font);
+}
+.block-profile-icon{
+    margin: 0 20px 20px 0;
+}
+.testomonial-content{
+    margin: 150px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testomonial-content-left{
+    padding: 50px;
 }
