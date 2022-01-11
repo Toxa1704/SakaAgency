@@ -18,7 +18,7 @@ body{
                 /* NavBar */
 
 
-                .header{
+.header{
     width:100% ;
     height: 100%;
     display: flex;
@@ -409,6 +409,7 @@ svg{
 
 .cta{
     background-color:var(--theme-bg-block);
+    padding-bottom: 50px;
 }
 .cta-content-title{
     font-family: Poppins;
@@ -456,6 +457,11 @@ svg{
 }
             /* Footer */
 
+.footer-blok{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
 .footer-container-block{
     display: flex;
     flex-direction: column;
@@ -479,7 +485,8 @@ svg{
     color: var(--theme-font);
     margin-bottom: 20px;
 }
-.block-company-title, .block-support-title{
+.block-company-title, .block-support-title, .block-touch-title{
+    margin-bottom: 20px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
@@ -488,10 +495,32 @@ svg{
     color: var(--theme-font);
 }
 .block-company-text, .block-support-text{
+    margin-bottom: 10px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
     color: var(--theme-font);
+}
+.block-touch-submit{
+    max-width: 255px;
+    height: 40px;
+    display:flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    opacity: 0.8;
+    background-color: var(--theme-bg-block);
+    align-items: center;
+    align-content: center;
+    padding: 0 10px;
+}
+.block-touch-submit input{
+    background-color: var(--theme-bg-block);
+    border:0;
+}
+.subit-img{
+    max-width:18px;
+    max-height: 18px;
+    cursor: pointer;
 }
