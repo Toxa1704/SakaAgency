@@ -454,3 +454,44 @@ svg{
     border-top: 0;
     border-bottom: 0;
 }
+            /* Footer */
+
+.footer-container-block{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer-logo{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--theme-font);
+    margin-bottom: 10px;
+}
+.footer-copyright{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: var(--theme-font);
+    margin-bottom: 20px;
+}
+.block-company-title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--theme-font);
+}
+.block-company-text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--theme-font);
+}
