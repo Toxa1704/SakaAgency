@@ -4,7 +4,6 @@
     --theme-font-button:#A1C5E9;
     --theme-bg-block:#1E2028;
 }
-
 html,body{
     height: 100%;
     width: 100%;
@@ -12,6 +11,10 @@ html,body{
 body{
     font-family: 'Poppins', sans-serif;
     background-color: var(--theme-bg);
+}
+a{
+    text-decoration: none;
+    color:var(--theme-font);
 }
 
 
